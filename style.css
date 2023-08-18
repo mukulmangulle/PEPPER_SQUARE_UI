@@ -1,0 +1,303 @@
+* {
+       margin: 0%;
+       padding: 0%;
+       box-sizing: border-box;
+}
+
+.container-fluid {
+       width: 100%;
+       height: 650px;
+       background-color: rgb(39, 36, 36);
+}
+
+.container {
+       width: 100%;
+       height: 650px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+
+.child1 {
+       width: 670px;
+       height: 550px;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+       flex-direction: column;
+}
+
+.text1 {
+       width: 100%;
+       height: 40px;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+}
+
+.head1 {
+       width: 80%;
+       height: 40px;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+}
+
+.btn1 {
+       width: 120px;
+       height: 30px;
+       background-color: rgb(167, 137, 98);
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border-radius: 5px;
+       border: none;
+       color: white;
+}
+
+.menu-div {
+       width: 30px;
+       height: 30px;
+       background-color: rgb(167, 137, 98);
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border-radius: 5px;
+}
+
+.menu-div1 {
+       width: 30px;
+       height: 30px;
+       border: 1px solid rgb(167, 137, 98);
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border-radius: 5px;
+}
+
+.text2 {
+       width: 100%;
+       height: 40px;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+}
+
+.text3 {
+       width: 100%;
+       height: 100px;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+}
+
+.screen {
+       height: 120px;
+}
+
+.text4 {
+       width: 100%;
+       height: 100px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+
+.text4-child {
+       width: 90%;
+       height: 100px;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+       flex-direction: column;
+}
+
+.fordiv {
+       width: 200px;
+       height: 17px;
+       background-color: wheat;
+       margin: 10px;
+       border-radius: 6px;
+}
+
+.five-div {
+       width: 120px;
+       height: 17px;
+       background-color: rgb(255, 198, 55);
+       border-radius: 6px;
+}
+
+.six-div {
+       width: 20px;
+       height: 17px;
+       background-color: rgb(255, 198, 55);
+       border-radius: 6px;
+}
+
+.seven-div {
+       width: 80px;
+       height: 17px;
+       background-color: rgb(255, 198, 55);
+       border-radius: 6px;
+}
+
+.nine-div {
+       width: 150px;
+       height: 17px;
+       background-color: rgb(255, 198, 55);
+       border-radius: 6px;
+}
+
+.child2 {
+       width: 450px;
+       height: 600px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+
+}
+
+.child-button1 {
+       width: 100%;
+       height: 100px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+
+.children-btn {
+       width: 180px;
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+}
+
+.child-button2 {
+       width: 100%;
+       height: 90px;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       flex-direction: column;
+}
+
+.login {
+       width: 180px;
+       height: 35px;
+       background-color: gold;
+       border: none;
+       border-radius: 8px;
+}
+
+.child-button3 {
+       width: 100%;
+       height: 100px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+
+.child-button3 input {
+       width: 250px;
+       padding-left: 40px;
+       height: 35px;
+       border-radius: 8px;
+       border: none;
+       background-color: rgba(80, 79, 79, 0.615);
+}
+
+.child-button4 {
+       width: 80%;
+       height: 100px;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+}
+
+.child-button5 {
+       width: 65%;
+       height: 100px;
+       display: flex;
+}
+
+.glass {
+       position: relative;
+       right: 50px;
+}
+
+.btn99 {
+       width: 35px;
+       height: 35px;
+       margin: 10px;
+       border-radius: 5px;
+       background-color: rgba(240, 248, 255, 0.23);
+       border: none;
+}
+
+.div-icon {
+       width: 150px;
+       height: 40px;
+       background-color: rgba(255, 255, 255, 0.208);
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+       border-radius: 10px;
+}
+
+.child-blue {
+       background-color: rgba(255, 255, 255, 0.149);
+       width: 30px;
+       height: 30px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border-radius: 50px;
+       margin: 10px;
+}
+
+.child-yellow {
+       background-color: goldenrod;
+       width: 15px;
+       height: 15px;
+       border-radius: 50px;
+}
+
+.yellow {
+       background-color: goldenrod;
+       width: 30px;
+       height: 30px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border-radius: 50px;
+       margin: 10px;
+}
+
+.white {
+       background-color: rgba(79, 77, 77, 0.888);
+       width: 15px;
+       height: 15px;
+       border-radius: 50px;
+}
+
+@media (max-width:768px) {
+       .container-fluid {
+              width: 100%;
+       }
+
+       .container {
+              width: 768px;
+              height: auto;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+              background-color: rgb(39, 36, 36);
+       }
+
+       .child2 {
+              width: 100%;
+              background-color: rgb(39, 36, 36);
+       }
+}
